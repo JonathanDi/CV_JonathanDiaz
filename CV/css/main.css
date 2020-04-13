@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    padding: 1% 3%;
+    background-color: #bfbfbf;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+.principalSection{
+    display: flex;
+    height: 320px;
+    
+}
+.profilePhoto{
+    width: 420px;
+    height: inherit;
+  
+}
+.secondSection{
+    display: block;
+    width: -webkit-fill-available;
+    height: inherit;
+    
+}
+.secondSection ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    height: 30%;
+    align-items: center;
+   
+    /* border: 1px solid black; */
+}
+.secondSection ul li{
+    text-decoration: none;
+    list-style: none;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+  /*   border: 1px solid black; */
+    justify-content: center;
+   display: block;
+}
+.containerName,.containerExperience{
+    height: 35%;
+    
+    display: flex;
+    align-items: center;
+   
+    
+}
+.containerName .textName, .containerExperience .textExperience{
+    color: white;
+    font-weight: lighter;
+    padding-left: 25px;
+    
+}
+.containerName{
+    background-color: #2f2f2fc2;
+}
+.containerName .textName{
+    font-size: 50px;
+}
+.containerExperience {
+    background-color: #2f2f2fea;
+    
+}
+.containerExperience .textExperience{
+    font-size: 30px;
+}
+.item a{
+    height: inherit;
+    display: block;
+   text-decoration: none;
+    height: -webkit-fill-available;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: lighter;
+    box-sizing: border-box;
+   
+}
+.itemInicio,.itemEstudios,.itemProyectos,.itemBlog,.itemContactame{
+    color: white;
+}
+.itemInicio{
+    background-color: #1abc9c;
+    
+}
+.flaticon-home, .flaticon-university, .flaticon-start-up, .flaticon-writing, .flaticon-contact{
+   
+    width: -webkit-fill-available !important;
+}
+
+
+.itemEstudios{
+    background-color: #3498db;
+}
+.itemProyectos{
+    background-color: #9b59b6;
+}
+.itemBlog{
+    background-color: #e67e22;
+}
+.itemContactame{
+    background-color: #e74c3c
+}
+
+.Resume{
+    width: 100%;
+    display: flex;
+   
+}
+.firstResume{
+width: 70%;
+justify-content: center;
+text-align: center;
+padding: 50px;
+background-color: white;
+}
+.secondResume{
+width: 30%;
+
+background-color: #f5f5f5ab;
+justify-content: center;
+text-align: center;
+padding: 50px;
+
+}
+.title{
+    font-size: 34px;
+}
+.personalInfo{
+    padding-top: 30px;
+    font-size: 20px;
+}
+.firstResume p{
+    font-size: 20px;
+    line-height: 25px;
+}
+.containerTimeLineAndSkills{
+    width: 100%;
+    display: flex;
+    color: white;
+}
+
+.containerTimeLine{
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    width: 30%;
+    background-color: #3498db;
+}
+
+.containerSkills{
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    width: 70%;
+    background-color: #9b59b6;
+}
+.timeLine{
+    border-left: 1px solid white;
+    text-align: start;
+    padding-left: 10px;
+}
+
+/* .listTimeLine p{
+text-decoration: ;
+}
+ */
+
+/* .listTimeLine li{
+    margin-: -20px;}
+.listTimeLine{
+    
+} */
